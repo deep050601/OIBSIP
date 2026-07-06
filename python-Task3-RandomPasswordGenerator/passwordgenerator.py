@@ -12,7 +12,7 @@ while True:
             break
     except ValueError:
         print("enter valid number not alphabet ")
-        
+
 print("Enter a character type which you want to include in your password ")
 while True:
     yes = 0
@@ -71,4 +71,5 @@ while True:
       print("Enter valid input")
       repeat=input("if you want to generate another passwor  type \"yes\" if not then type \"no\" ").lower()
    if repeat=="no":
-       break
+      print("Thank you")
+      break
