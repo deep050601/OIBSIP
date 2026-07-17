@@ -65,11 +65,11 @@ while True:
    for i in range(0,length):
       choice = random.choice(character_pool)
       generated_password+=choice
-   print(generated_password)
-   repeat=input("if you want to generate another passwor  type \"yes\" if not then type \"no\" ").lower()
+   print(f"\n{generated_password}")
+   repeat=input("\nif you want to generate another passwor  type \"yes\" if not then type \"no\" ").lower()
    while repeat not in ["yes","no"]:
       print("Enter valid input")
-      repeat=input("if you want to generate another passwor  type \"yes\" if not then type \"no\" ").lower()
+      repeat=input("\nif you want to generate another passwor  type \"yes\" if not then type \"no\" ").lower()
    if repeat=="no":
       print("Thank you")
       break
