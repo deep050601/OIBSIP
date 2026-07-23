@@ -1,4 +1,4 @@
-### 🎙️ Voice Assistant using Python
+## 🎙️ Voice Assistant using Python
 
 A simple voice-controlled assistant built with Python that can listen to your voice, respond using text-to-speech, tell the current time and date, perform Google searches, and open popular websites.
 
