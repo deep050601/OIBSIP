@@ -85,7 +85,7 @@ while True:
         query=listen()
 
         if query:
-            speak(f"seaeching for {query}",)
+            speak(f"searching for {query}",)
             webbrowser.open(f"https://www.google.com/search?q={query.replace(' ', '+')}")
         else:
             speak("Sorry, I couldn't understand your search.")
